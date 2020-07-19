@@ -1,0 +1,121 @@
+/* Starts CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+
+* { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+
+a:focus { outline: 0 solid;}
+
+img { max-width: 100%;}
+
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+
+h1,h2,h3,h4,h5,h6{ margin: 0 0 15px; font-weight: 700;}
+
+a:hover, a:focus{ text-decoration: none; outline: none; border: none;}
+
+body{ font-family: 'Roboto', sans-serif;}
+/* Ends Base CSS */
+
+header {
+	background-color: #FCDB00;
+	padding: 50px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-weight: bold;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 12px;
+  height: 12px;
+  border: 0!important;
+  padding: 0!important;
+  border-radius: 30px;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+.content ul li a {
+  color: #000;
+  font-size: 30px;
+  padding-right: 30px;
+}
+
+.content h6 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.content h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.fa, .fas {
+	font-weight: 900;
+	font-size: 35px;
+	margin-top: 7px;
+}
+.fab, .far {
+	font-weight: 500;
+	font-size: 35px;
+}
+
+.feature h2 {
+  font-size: 25px;
+}
+.feature p {
+  font-size: 16px;
+  color: #777777;
+}
+
+.text p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #000;
+}
+footer {
+	background-color: #000;
+	padding: 50px 0;
+}
+.form-control {
+  padding: 25px;
+}
+.btn.btn-primary {
+  padding: 14px 50px;
+  background: #FCDB00;
+  border: 0;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.icon li a {
+  padding-right: 20px;
+  color: #FCDB00;
+}
+
+footer h1 {
+  color: #fcdb00;
+  font-weight: bold;
+}
+footer p {
+  color: #CCCCCC;
+}
+
+.menu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu ul li a {
+  font-size: 16px;
+  color: #CCCCCC;
+  line-height: 1.7;
+}
